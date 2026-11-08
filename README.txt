@@ -1,16 +1,13 @@
 ================================================================================
-2COP015: INTELIGENCIA ARTIFICIAL - TRABALHO PRATICO 1
-UNIVERSIDADE ESTADUAL DE LONDRINA (UEL)
-Aluno: Eder Medeiros
-Professor: Prof. Dr. Antonio Parmezan
-Tema: Roteamento para Coleta e Amostragem de Graos em Patio de Silobags (Agro-TIC)
+AUTONOMOUS SILOBAG ROUTING & SAMPLING (AGRO-PATHFINDING)
+Planejamento de Rotas e Navegacao Autonoma em Patios de Graos via Algoritmos de Busca
 ================================================================================
 
 1. REQUISITOS
 - Python 3.10 ou superior instalado.
-- O resolvedor de busca e a modelagem do problema utilizam apenas modulos nativos
+- O motor de busca e a modelagem do problema utilizam apenas modulos nativos
   da biblioteca padrao do Python (sys, time, tracemalloc, collections, heapq).
-- Bibliotecas opcionais para plotagem de graficos e geracao do relatorio em PDF:
+- Bibliotecas opcionais para plotagem de graficos e geracao do relatorio:
     pip install matplotlib numpy reportlab pymupdf
 
 2. INSTRUCOES DE EXECUCAO
@@ -30,7 +27,7 @@ C) Executar apenas um algoritmo especifico:
 D) Rodar o benchmark estatistico completo e gerar o grafico comparativo:
     python benchmark.py
 
-E) Gerar o relatorio tecnico em PDF (relatorio.pdf, estritamente 2 paginas):
+E) Gerar o relatorio tecnico em PDF:
     python gerar_relatorio.py
 
 3. ESTRUTURA DOS ARQUIVOS DE ENTRADA (GRADE DO PATIO)
